@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav,
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul {
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+nav ul li{
+    transition: 0.5s;
+
+}
+nav ul li:hover{
+    transform: scale(1.2);
+}
+
+.blue-section {
+    background-image:linear-gradient(145deg,#8EBDFF, #8EBDFF, #8EBDFF ) ;
+    color: #FAFAFA;
+}
+.blue-gradient-section{
+    background: linear-gradient(0deg, rgba(0, 7, 42, 0.25), rgba(0, 7, 42, 0.25)), linear-gradient(244.38deg, #9EE8FF 8.14%, #5ACEFF 27.9%, #79AFFF 56.94%, #2D5FDE 84.11%);
+    color: #FAFAFA;
+}
+.blue-section h2, .blue-gradient-section h2{
+    font-size: 52px;
+    margin-bottom: 40px;
+}
+.white-section {
+    background-color: rgba(255, 255, 255, 0.01);;
+    color: #2B2B2B;
+}
+
+.display-inline {
+    display: flex;
+    align-items: center;
+}
+.mainContent .btn-getStarted{
+    height: 50px;
+    width: 260px;
+    font-size: 20px;
+}
+.main-text{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main-text h1{
+    font-size: 50px;
+    text-align: right;
+}
+.main-text p{
+    text-align: right;
+    font-size: 24px;
+}
+.space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.space-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.space-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.space-right{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.triangule{
+    width: 0; 
+    height: 0; 
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent; 
+    border-right:25px solid #50B3FB;
+}
+.homeimage img{
+    width: 80%;
+}
+.btn-getStarted{
+    background-color: #50B3FB;
+    border-radius: 25px;
+    border: 3px solid #50B3FB;
+    color: #FAFAFA;
+    font-weight: bold;
+    padding: 6px 40px;
+}
+.btn-signUp{
+    color: #FAFAFA;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 3px solid #FAFAFA;
+    text-decoration: none;
+    padding: 4px 29px;
+}
+.btn-signUp2{
+    color: #1790FF;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 3px solid #48A7FF;
+    text-decoration: none;
+    padding: 4px 29px ;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.card-feature{
+    width: 300px;
+}
+.card-feature img{
+    width: 100%;
+}
+.card-feature h3{
+    font-weight: 500;
+}
+.card-feature{
+    font-size: 16px;
+}
+.container{
+    max-width: 100%;
+    padding: 4% 5%;
+}
+.cart-image{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 370px;
+}
+.cart-image img{
+    width: 70%;
+}
+.box{
+    background-color: transparent;
+    border: 2px solid #848484;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+    margin: 0 auto;
+    padding: 4%;
+    margin-bottom: 120px;
+}
+.systemText{
+    width: 50%;
+}
+.box h3{
+    font-size: 30px;
+}
+.box h4{
+    font-size: 24px;
+    font-weight: normal;
+    color: #2B2B2B;
+}
+.border-left{
+    padding-left: 10%;
+    border-left: 2px solid #848484;
+}
+.border-right{
+    padding-right: 10%;
+    border-right: 2px solid #848484;
+}
+
+.box-icon{
+    background-color: #50B3FB;
+    border-radius: 50%;
+    max-width: 100%;
+    width: 72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+.serviceSignature{
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    width: 150px;
+    height: 70px;
+    border-radius: 35px;
+    cursor: pointer;
+    color: #040404;
+}
+.serviceSignature.selected{
+    color: white;
+    background-color: #1790FF;
+}
+.priceOption{
+    width: 220px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+    text-align: center;
+    padding: 2% 0;
+}
+.priceOption h3{
+    margin-bottom: 20px;
+}
+.priceOption .price{
+    margin-bottom: 20px;
+}
+.priceOption h4{
+    font-size: 30px;
+}
+.priceOption:hover{
+    background-color: white;
+    transform: scale(1.2);
+}
+.priceOption ul{
+    list-style: none;
+}
+.priceOption ul li{
+    margin-bottom: 10px;
+}
+.priceOption button{
+    background-color: #68A2E6;
+    border:  none;
+    padding: 2%;
+    width: 200px;
+    height: 56px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.priceOption button:hover{
+    background-color: #2D5FDE;
+}
+.priceInfo ul{
+    margin-top: 80px;
+    list-style: none;
+}
+.priceInfo li{
+    margin-bottom: 18px;
+}
+ul.priceChecks li img{
+    max-width: 40px;
+    max-height: 26px;
+}
+.priceOptions{
+    gap: 20px;
+}
+.carousel{
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    color: #00203E;
+}
+.carousel-item{
+    display: flex;
+    align-items: center;
+    padding: 4% 3%;
+    gap: 5%;
+}
+.carousel-item img{
+    width: 200px;
+    border-radius: 50%;
+}
+.carousel-item h3{
+    font-size: 25px;
+}
+.carousel-item p{
+    font-size: 17px;
+}
+.carousel-item .date{
+    font-size: 15px;
+}
+.waitingFor h2{
+    margin-bottom: 0;
+}
+.waitingFor p{
+    margin-bottom: 62px;
+}
+.carrousel-menu{
+    margin: 40px 0;
+    gap: 40px;
+}
+.balls{
+    gap: 10px;
+}
+.ball{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    list-style: none;
+    position: relative;
+}
+footer img{
+    bottom: 20px;
+    position: relative;
+    width: 281px;
+    margin-bottom: 30px;
+}
+footer h2{
+    margin-bottom: 18px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    margin-bottom: 10px;
+}
+footer ul a{
+    color: #2B2B2B;
+    text-decoration: none;
+}
