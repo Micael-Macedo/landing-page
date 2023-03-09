@@ -47,7 +47,6 @@ nav ul li:hover{
 
 .display-inline {
     display: flex;
-    align-items: center;
 }
 .mainContent .btn-getStarted{
     height: 50px;
@@ -70,19 +69,16 @@ nav ul li:hover{
 }
 .space-between {
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
 .space-around {
     display: flex;
-    align-items: center;
     justify-content: space-around;
 }
 
 .space-center{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 .space-right{
@@ -123,6 +119,9 @@ nav ul li:hover{
     border: 3px solid #48A7FF;
     text-decoration: none;
     padding: 4px 29px ;
+}
+.item-center{
+    align-items: center;
 }
 .text-center{
     text-align: center;
@@ -208,10 +207,14 @@ nav ul li:hover{
     border-radius: 35px;
     cursor: pointer;
     color: #040404;
+    transition: 0.5s;
 }
 .serviceSignature.selected{
     color: white;
     background-color: #1790FF;
+}
+.signatureInfo{
+    margin-top: 60px;
 }
 .priceOption{
     width: 220px;
@@ -223,10 +226,15 @@ nav ul li:hover{
     text-align: center;
     padding: 2% 0;
 }
+.mobile-text{
+    display: none;
+    visibility: hidden;
+}
 .priceOption h3{
     margin-bottom: 20px;
 }
 .priceOption .price{
+    align-items: center;
     margin-bottom: 20px;
 }
 .priceOption h4{
@@ -301,6 +309,7 @@ ul.priceChecks li img{
     margin-bottom: 62px;
 }
 .carrousel-menu{
+    align-items: center;
     margin: 40px 0;
     gap: 40px;
 }

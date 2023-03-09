@@ -1,0 +1,125 @@
+@media screen and (max-width:450px) {
+    .homeimage{
+        display: none;
+        visibility: hidden;
+    }
+    .main-text{
+        width: 100%;
+        gap: 50px;
+    }
+    .main-text h1{
+        font-size: 38px;
+        text-align: center;
+    }
+    .main-text p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .main-text .space-right{
+        justify-content: center;
+    }
+    .blue-section h2, .blue-gradient-section h2{
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .systemText{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .systemText p{
+        margin-top: 20px;
+        text-align: justify;
+        font-size: 14px;
+    }
+    .cart-image{
+        display: none;
+        visibility: hidden;
+    }
+    .features{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .box{
+        flex-wrap: wrap;
+    }
+    .box-content{
+        width: 320px;
+
+    }
+    .border-right{
+        border: 0;
+        padding: 0%;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #848484;
+        margin-bottom: 20px;
+    }
+    .border-left{
+        border: 0;
+        padding: 0%;
+        padding-top: 20px;
+        border-top: 2px solid #848484;
+        margin-top: 20px;
+    }
+    .priceOptions{
+        flex-wrap: wrap;
+    }
+    .priceInfo{
+        display: none;
+        visibility: hidden;
+    }
+    .priceOption{
+        width: 100%;
+    }
+    .priceChecks li{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .priceChecks button{
+        margin: auto;
+    }
+    .mobile-text{
+        width: 200px;
+        text-align: left;
+        display: block;
+        visibility: visible;
+    }
+    .signature{
+        flex-wrap: wrap;
+    }
+    .carousel{
+        width: 90%;
+    }
+    .carousel-item{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .carousel-item img{
+        width: 120px;
+    }
+    .carousel-item h3{
+        text-align: center;
+    }
+    .carousel-item p{
+        font-size: 14px;
+        text-align: justify;
+    }
+    .carousel-item .date{
+        text-align: center;
+    }
+    footer{
+        flex-wrap: wrap;
+    }
+    footer img{
+        bottom: 0px;
+    }
+    .signFooter{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .signFooter .text-right{
+        text-align: center;
+    }
+}
