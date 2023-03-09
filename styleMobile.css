@@ -1,3 +1,80 @@
+@media screen and (max-width: 1115px) {
+    .mobile-text{
+        width: 200px;
+        text-align: left;
+        display: block;
+        visibility: visible;
+    }
+    .signatureInfo{
+        justify-content: center;
+    }
+    .priceOptions{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .priceInfo{
+        display: none;
+        visibility: hidden;
+    }
+    .priceChecks li{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .priceOption{
+        width: 300px;
+    }
+    .priceChecks button{
+        margin: auto;
+    }
+    .carousel{
+        width: 90%;
+    }
+    .carousel-item{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .box{
+        flex-direction: column;
+    }
+    .border-right{
+        border: 0;
+        padding: 0%;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #848484;
+        margin-bottom: 20px;
+    }
+    .border-left{
+        border: 0;
+        padding: 0%;
+        padding-top: 20px;
+        border-top: 2px solid #848484;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:720px){
+    footer{
+        flex-wrap: wrap;
+    }
+    .signFooter{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .signFooter .text-right{
+        text-align: center;
+    }
+}
+@media screen and (max-width:500px) {
+    .signature{
+        flex-wrap: wrap;
+    }
+    .serviceSignature{
+        width: 120px;
+    }
+}
 @media screen and (max-width:450px) {
     .homeimage{
         display: none;
@@ -41,60 +118,25 @@
         gap: 40px;
     }
     .box{
+        flex-direction: row;
         flex-wrap: wrap;
     }
     .box-content{
         width: 320px;
 
     }
-    .border-right{
-        border: 0;
-        padding: 0%;
-        padding-bottom: 20px;
-        border-bottom: 2px solid #848484;
-        margin-bottom: 20px;
-    }
-    .border-left{
-        border: 0;
-        padding: 0%;
-        padding-top: 20px;
-        border-top: 2px solid #848484;
-        margin-top: 20px;
-    }
     .priceOptions{
         flex-wrap: wrap;
     }
-    .priceInfo{
-        display: none;
-        visibility: hidden;
-    }
+
     .priceOption{
         width: 100%;
     }
-    .priceChecks li{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .priceChecks button{
-        margin: auto;
-    }
-    .mobile-text{
-        width: 200px;
-        text-align: left;
-        display: block;
-        visibility: visible;
-    }
+
     .signature{
         flex-wrap: wrap;
     }
-    .carousel{
-        width: 90%;
-    }
-    .carousel-item{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+
     .carousel-item img{
         width: 120px;
     }
@@ -108,18 +150,8 @@
     .carousel-item .date{
         text-align: center;
     }
-    footer{
-        flex-wrap: wrap;
-    }
     footer img{
         bottom: 0px;
     }
-    .signFooter{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    .signFooter .text-right{
-        text-align: center;
-    }
+
 }

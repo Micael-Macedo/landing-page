@@ -118,7 +118,7 @@ nav ul li:hover{
     border-radius: 20px;
     border: 3px solid #48A7FF;
     text-decoration: none;
-    padding: 4px 29px ;
+    padding: 4px 29px;
 }
 .item-center{
     align-items: center;
@@ -178,11 +178,11 @@ nav ul li:hover{
     color: #2B2B2B;
 }
 .border-left{
-    padding-left: 10%;
+    padding-left: 5%;
     border-left: 2px solid #848484;
 }
 .border-right{
-    padding-right: 10%;
+    padding-right: 5%;
     border-right: 2px solid #848484;
 }
 
